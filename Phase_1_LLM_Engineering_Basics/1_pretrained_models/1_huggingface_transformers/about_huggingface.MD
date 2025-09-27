@@ -18,5 +18,3 @@
 
 3. **Other Pipelines to Explore:**
    Check out available pipelines here: [Hugging Face Pipelines](https://huggingface.co/docs/transformers/en/main_classes/pipelines)
-
----
