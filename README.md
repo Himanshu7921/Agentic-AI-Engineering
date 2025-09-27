@@ -112,10 +112,15 @@ The project is organized by phases, with each phase containing **theory, explana
 ├── Phase_1_LLM_Engineering_Basics
 │   ├── 1_pretrained_models
 │   │   ├── 1_huggingface_transformers
-│   │   │   ├── about_huggingface.MD
-│   │   │   ├── classification_pipeline.py
-│   │   │   ├── sentiment_analysis_pipeline.py
-│   │   │   └── text_generation_pipeline.py
+│   │   │   ├── 1_pipelines
+│   │   │   │   ├── classification_pipeline.py
+│   │   │   │   ├── sentiment_analysis_pipeline.py
+│   │   │   │   └── text_generation_pipeline.py
+│   │   │   ├── 2_tokenizers_and_models
+│   │   │   │   ├── tokenization.py
+│   │   │   │   └── why_we_need_tokenizers.md
+│   │   │   ├── 3_huggingface_with_pytorch
+│   │   │   └── about_huggingface.MD
 │   │   ├── 2_openai_api
 │   │   │   ├── about_openai_api.MD
 │   │   │   ├── gpt3_basic_examples.py
@@ -191,7 +196,6 @@ The project is organized by phases, with each phase containing **theory, explana
 │       └── self_improving_llm_pipeline.py
 ├── README.md
 ```
-
 
 ---
 
