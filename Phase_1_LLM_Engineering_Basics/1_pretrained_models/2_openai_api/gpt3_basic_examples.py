@@ -45,6 +45,7 @@ Notes:
 """
 
 from openai import OpenAI
+import os
 
 def get_ai_response(system_message: str, user_message: str, model_name: str = "gpt-4o-mini") -> str:
     """
@@ -78,7 +79,13 @@ def get_ai_response(system_message: str, user_message: str, model_name: str = "g
     "Neural Networks are computer systems inspired by the human brain..."
     """
     # Initialize the client (automatically uses the API key from environment variable)
-    client = OpenAI()
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+            raise ValueError(
+                "ERROR: OPENAI_API_KEY not found. "
+                "Please set your API key in environment variables."
+            )
+    client = OpenAI(api_key = api_key)
 
     # Send messages to the Chat Completions API
     response = client.chat.completions.create(
