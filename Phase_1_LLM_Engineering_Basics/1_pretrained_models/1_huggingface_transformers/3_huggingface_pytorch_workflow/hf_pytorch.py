@@ -1,6 +1,4 @@
 """
-hf_pytorch_demo.py
-
 Demonstrates how to use Hugging Face Transformers models with PyTorch.
 
 Requirements:
