@@ -233,20 +233,20 @@ def get_tools() -> list[Tool]:
     Returns a list of all LangChain tools for agent usage.
     """
     return [
-        Tool.from_function(add_from_string, "add_two_numbers",
-                           "Extracts two numbers from a string and returns their sum."),
-        Tool.from_function(sub_from_string, "sub_two_numbers",
-                           "Extracts two numbers from a string and returns their difference."),
-        Tool.from_function(multiply_from_string, "multiply_two_numbers",
-                           "Extracts two numbers from a string and returns their product."),
-        Tool.from_function(divide_from_string, "divide_two_numbers",
-                           "Extracts two numbers from a string and returns the division result."),
-        Tool.from_function(weather_information, "weather_information_tool",
-                           "Provides current weather information for a given city."),
-        Tool.from_function(personal_info, "personal_info_tool",
-                           "Returns detailed personal information about a specified individual."),
-        Tool.from_function(random_funfact, "random_funfact_tool",
-                           "Generates a random fun fact based on a query topic.")
+        Tool.from_function(func = add_from_string, name = "add_two_numbers",
+                           description = "Extracts two numbers from a string and returns their sum."),
+        Tool.from_function(func = sub_from_string, name = "sub_two_numbers",
+                           description = "Extracts two numbers from a string and returns their difference."),
+        Tool.from_function(func = multiply_from_string, name = "multiply_two_numbers",
+                           description = "Extracts two numbers from a string and returns their product."),
+        Tool.from_function(func = divide_from_string, name = "divide_two_numbers",
+                           description = "Extracts two numbers from a string and returns the division result."),
+        Tool.from_function(func = weather_information, name = "weather_information_tool",
+                           description = "Provides current weather information for a given city."),
+        Tool.from_function(func = personal_info, name = "personal_info_tool",
+                           description = "Returns detailed personal information about a specified individual."),
+        Tool.from_function(func = random_funfact, name = "random_funfact_tool",
+                           description = "Generates a random fun fact based on a query topic.")
     ]
 
 # -------------------------
