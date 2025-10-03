@@ -100,10 +100,6 @@ Suppose you’re building an **AI assistant for laptops**:
 
 ---
 
-Here’s a **clean summary** you can drop into your notes 👇
-
----
-
 # 🔀 Routing Implementation
 
 * **Routing in Code** → Define multiple possible paths (sub-agents, tools, or chains) and the **logic** that decides which path to take.
