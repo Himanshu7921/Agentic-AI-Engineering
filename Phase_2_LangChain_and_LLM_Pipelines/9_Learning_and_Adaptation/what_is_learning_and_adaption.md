@@ -72,3 +72,5 @@ Learning and adaptation enable AI agents to improve autonomously through experie
 * Developed by Robeyns, Aitchison, and Szummer.
 * SICA can modify its own source code iteratively, improving performance across coding challenges.
 * Demonstrates autonomous self-improvement beyond traditional training methods.
+
+- Refer to this repository for more details on SICA: https://github.com/MaximeRobeyns/self_improving_coding_agent/
