@@ -1,4 +1,4 @@
-# LangChain Engineering: Building Practical AI Agents
+# Agentic-AI Engineering: Building Practical AI Agents
 
 From pretrained models to RAG pipelines and advanced LLM applications, this repository provides a **hands-on roadmap to mastering LangChain engineering** and building real-world AI workflows. This guide is structured for both learning and practical implementation, helping you move from foundational concepts to advanced multi-agent systems.
 
