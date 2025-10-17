@@ -172,6 +172,13 @@ Agentic RAG turns retrieval into a **dynamic reasoning framework**, ensuring pre
 
 RAG thus powers **fact-grounded AI systems** across industries.
 
+## Practical Implementation
+
+For a working, reusable implementation of a Retrieval-Augmented Generation (RAG) framework, see my project:
+
+[RetrievalMind](https://github.com/Himanshu7921/RetrievalMind) – A Python framework for PDF and text ingestion, embedding generation, vector storage, and retrieval pipelines. Ideal for AI agents that need fact-grounded, domain-specific knowledge.
+
+
 ---
 
 ### **8. Key Takeaways**
